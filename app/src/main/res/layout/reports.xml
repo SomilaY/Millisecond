@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3D4AD">
+
+    <ImageView
+        android:id="@+id/Banner"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/millisecond" />
+
+    <ImageView
+        android:id="@+id/Categories"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/Banner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/categories" />
+
+    <ImageView
+        android:id="@+id/goals"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/Categories"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/goals" />
+
+    <ImageView
+        android:id="@+id/timesheet"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/goals"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/timesheet" />
+
+
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:elevation="0dp">
+
+        <ImageView
+            android:id="@+id/HomeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="onHomeButtonClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/home"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/timeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="onTimeButtonClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/time"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/expenseButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="onExpensesButtonClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/expenses"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/reportButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="onReportsButtonClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/reports"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/userButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="onUserButtonClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/user"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

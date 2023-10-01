@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753025159640",
+    "project_id": "millisecond-f6aea",
+    "storage_bucket": "millisecond-f6aea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753025159640:android:c8ebb1b321257318ed22ad",
+        "android_client_info": {
+          "package_name": "com.example.millisecond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753025159640-mbampuprkd7qas8ktkgrmd4dq5tjms3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-cBOH3LGOR6YPsCkvQHfB_k9_nTW9OJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753025159640-mbampuprkd7qas8ktkgrmd4dq5tjms3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
